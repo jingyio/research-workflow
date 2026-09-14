@@ -1,0 +1,62 @@
+{
+  "project_name": "Explicit Interaction-State Modeling for Binding-Affinity Change",
+  "domain": "AI for Drug Discovery / biomolecular interaction modeling",
+  "core_question": "How can local molecular interaction or binding-interface structure become an explicit computational object whose representation changes under local edits or mutations, so that the change can be used to predict binding-affinity effects?",
+  "scope_status": "open",
+  "candidate_scopes": [
+    "protein-ligand affinity change",
+    "antibody-antigen affinity change / maturation",
+    "general mutation-induced interaction change"
+  ],
+  "core_terms": [
+    "binding affinity",
+    "affinity change",
+    "DeltaDeltaG",
+    "binding interface",
+    "interaction representation",
+    "local structural change",
+    "mutation effect",
+    "structure-aware learning",
+    "geometric deep learning"
+  ],
+  "mechanism_terms": [
+    "equivariant graph neural network",
+    "dynamic representation",
+    "local update",
+    "message passing",
+    "cross-interface attention",
+    "interaction graph",
+    "pair representation"
+  ],
+  "domain_terms": [
+    "protein ligand",
+    "antibody antigen",
+    "complex structure",
+    "interface residues",
+    "epitope",
+    "paratope",
+    "free energy"
+  ],
+  "excluded_or_rejected_framings": [
+    "forcing the core problem into a sequential world-model framing solely because edits can be ordered"
+  ],
+  "priority_questions": [
+    "What should count as the explicit interaction state: residue/atom contacts, pair features, local geometry, energy-like terms, or a learned object?",
+    "Which real task best exposes the value of explicit local state change rather than global end-to-end encoding?",
+    "How much experimental affinity-change data exists, and what split/generalization settings are scientifically meaningful?",
+    "Do existing methods already explicitly update interface representations after mutations/edits, or only re-encode the full complex?",
+    "Where do structure-based affinity-change models fail under family/complex/OOD split?"
+  ],
+  "update_policy": {
+    "snapshot_before_material_change": true,
+    "preserve_rejections": true,
+    "require_disconfirming_search_for_core_claims": true,
+    "raw_chatgpt_exports_are_private": true
+  },
+  "language_policy": {
+    "default_output_language": "zh-CN",
+    "preserve_original_paper_titles": true,
+    "preserve_search_queries_in_english_when_useful": true,
+    "allow_bilingual_technical_terms": true
+  }
+}

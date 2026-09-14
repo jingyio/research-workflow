@@ -1,0 +1,10 @@
+Idea-Driven Research Workflow
+
+This project is an independent reimplementation inspired by the fixed-file research project organization, handoff discipline, and project skeleton described by:
+
+  skJack/research-workflow
+  https://github.com/skJack/research-workflow
+  License: Apache License 2.0
+
+No claim is made that this project is endorsed by or affiliated with the upstream author.
+The literature-routing, dynamic Idea State, ChatGPT-export adaptation, evidence ledger, contradiction tracking, and complementary-lens design are original extensions in this repository.

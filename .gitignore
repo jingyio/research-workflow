@@ -1,0 +1,26 @@
+# Private research context
+research/imports/chatgpt/*
+!research/imports/chatgpt/.gitkeep
+research/private/
+private/
+
+# Downloaded literature artifacts (keep cards/metadata, not large/copyrighted files)
+research/literature/papers/**/paper.pdf
+research/literature/papers/**/source/
+research/literature/papers/**/*.tar.gz
+research/literature/papers/**/*.zip
+
+# Local generated/cache
+.cache/
+work/cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem

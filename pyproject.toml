@@ -1,0 +1,9 @@
+[project]
+name = "idea-driven-research-workflow"
+version = "0.3.0"
+description = "A versioned, idea-driven literature research workflow for AI-assisted research."
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
